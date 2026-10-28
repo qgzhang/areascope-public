@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+
+# Environment / secrets
+.env
+.env.*
+
+# Frontend
+node_modules/
+dist/
+
+# Local data
+data/raw/
+data/processed/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/

@@ -1,0 +1,12 @@
+
+{
+  "extends": "../tsconfig.app.json",
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "incremental": true,
+    "tsBuildInfoFile": "../node_modules/.tmp/playground.tsbuildinfo"
+  },
+  "include": ["./**/*.ts", "./**/*.tsx"],
+  "exclude": ["../node_modules"]
+}
